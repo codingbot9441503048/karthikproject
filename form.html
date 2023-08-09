@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.register-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 5px;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.label-name {
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.input-type {
+    margin-top: 10px;
+
+}
+
+.input-type2 {
+    margin-top: 10px;
+
+}
+
+.input-type3 {
+    margin-top: 10px;
+
+}
+
+.input-type5 {
+    margin-left: 230px;
+}
+
+.btn {
+    font-weight: bold;
+    width: 130px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+</style>
+
+<body>
+    <div class="container">
+        <h1 class="register-header"> EVENT REGISTRATION FORM</h1>
+        <div class="registration-name row d-flex flex-row">
+            <div class="label-name col-md-3 col-sm-12 ">
+                <label for="name">Name</label>
+            </div>
+            <div class="input-type col-md-9 col-sm-12">
+                <input type="text" name="" id="" value="" size="5" class="form-control" placeholder="First Name">
+                <input type="text" name="" id="" value="" size="5" class="form-control mt-2" placeholder="Last Name">
+            </div>
+        </div>
+        <br />
+        <div class="registration-name row">
+            <div class="label-name  col-md-3 col-sm-12">
+                <label for="Company">Company</label>
+            </div>
+            <div class="input-type2 col-md-9 col-sm-12">
+                <input type="text" name="" id="" value="" class="form-control" placeholder="">
+            </div>
+        </div>
+        <br />
+        <div class="registration-name row">
+            <div class="label-name  col-md-3 col-sm-12">
+                <label for="Email">Email</label>
+            </div>
+            <div class="input-type3 col-md-9 col-sm-12">
+                <input type="email" name="" id="" value="" class="form-control" placeholder="example@email.com">
+            </div>
+        </div>
+        <br />
+        <div class="registration-name row">
+            <div class="label-name  col-md-3 col-sm-12">
+                <label for="Phone">Phone</label>
+            </div>
+            <div class="input-type col-md-9 col-sm-12">
+                <input type="tel" name="" id="" value="" size="10" class="form-control" placeholder="Area Code">
+                <input type="tel" name="" id="" value="" class="form-control mt-2" placeholder="Phone Number">
+            </div>
+        </div>
+        <br />
+        <div class="registration-name d-flex flex-row">
+            <div class="label-name ">
+                <label for="Subject">Subject</label>
+            </div>
+            <div class="input-type5">
+                <select class="form-control" name="" id="">
+                    <option value="" disabled selected>Choosen Option</option>
+                    <option value="subject1">Subject 1</option>
+                    <option value="subject2">Subject 2</option>
+                    <option value="subject3">Subject 3</option>
+                </select>
+            </div>
+        </div>
+        <br><br /><br />
+
+        <button class="btn btn-danger">REGISTER</button>
+    </div>
+
+
+</body>
+
+</html>
